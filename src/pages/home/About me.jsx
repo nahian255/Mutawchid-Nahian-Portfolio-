@@ -4,7 +4,7 @@
 const AboutMe = () => {
     return (
         <section className="bg-white ">
-            <div className=" mx-auto  py-16">
+            <div className=" mx-auto px-8  py-16">
                 <div className=" mx-auto">
                     <h2 className="text-3xl md:text-4xl text-center font-bold text-gray-800 mb-6">
                         About Me

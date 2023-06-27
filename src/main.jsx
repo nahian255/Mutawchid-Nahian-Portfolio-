@@ -15,7 +15,6 @@ import Project1 from './pages/home/Project1';
 import Project2 from './pages/home/Project2';
 import Project3 from './pages/home/Project3';
 import Test from './pages/Test';
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 const router = createBrowserRouter([
   {
