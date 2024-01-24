@@ -16,11 +16,12 @@ const Banner = () => {
                             Junior Web developer
                         </p>
                         <p className='mb-8'>MERN stack developer // React JS developer</p>
-                        <Link to='/contactMe'><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+                        <button onClick={() => window.location.href = 'mailto:mutawchidnahian854@gmail.com'} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
                             Hire Me
-                        </button></Link>
-                        <a href="../../../pdf/Mutawchid Nahian Resume (1).pdf" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-4">
-                            Resume Dowanload
+                        </button>
+
+                        <a href="https://docs.google.com/document/d/1AfSPJYMZ6IqiOSD1UdohbZon1rVdYOiPsQKNYkicW3g/edit" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-4">
+                            Resume
                         </a>
 
                     </div>

@@ -1,11 +1,11 @@
-import project1Image1 from '../../assets/project-2.jpg';
-import project1Image2 from '../../assets/chef.jpg';
-import project1Image3 from '../../assets/chefone.jpg';
+import project1Image1 from '../../assets/netpay.jpg';
+import project1Image2 from '../../assets/netpay1.jpg';
 
 
 const Project3 = () => {
-    const websiteLink = 'https://auth-project-a10.web.app/';
-    const gitLink = 'https://github.com/nahian255/Chef-hunter-b7-a10'
+    const websiteLink = 'https://netpay-bef44.web.app/';
+    const gitLink = 'https://github.com/Mamun-Ur-Rashid/netplay'
+    const gitLinkServer = 'https://github.com/muhammadali246397/netpay-server'
 
     return (
         <div>
@@ -13,7 +13,7 @@ const Project3 = () => {
                 <div className=" mx-auto  py-16">
                     <div className="max-w-screen-xl  mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                            Chef Hub
+                            NetPay (Team Project)
                         </h2>
 
                         {/* live Link */}
@@ -24,7 +24,7 @@ const Project3 = () => {
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline text-2xl"
                             >
-                                Live Website ||
+                                Live website ||
                             </a>
                             <a
                                 href={gitLink}
@@ -32,7 +32,15 @@ const Project3 = () => {
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline text-2xl px-4 "
                             >
-                                Git Client
+                                Git client
+                            </a>
+                            <a
+                                href={gitLinkServer}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-500 hover:underline text-2xl px-4 "
+                            >
+                                Git server
                             </a>
 
                         </div>
@@ -46,7 +54,7 @@ const Project3 = () => {
                                     className="h-80 w-full object-cover mb-4"
                                 />
                                 <p className="text-gray-800 text-4xl text-center">
-                                    Home
+                                    Home page
                                 </p>
                             </div>
                             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -56,17 +64,7 @@ const Project3 = () => {
                                     className="h-80 w-full object-cover mb-4"
                                 />
                                 <p className="text-gray-800 text-4xl text-center">
-                                    chef Part
-                                </p>
-                            </div>
-                            <div className="bg-white rounded-lg shadow-lg p-6">
-                                <img
-                                    src={project1Image3}
-                                    alt="Project 1 Image 3"
-                                    className="h-80 w-full object-cover mb-4"
-                                />
-                                <p className="text-gray-800 text-4xl text-center">
-                                    Recipi
+                                    service page
                                 </p>
                             </div>
                         </div>
@@ -76,17 +74,24 @@ const Project3 = () => {
                                 Technologies Used
                             </h3>
                             <ul className="list-disc pl-6 mb-4">
-                                <li>HTML</li>
-                                <li>CSS</li>
+
                                 <li>JavaScript</li>
                                 <li>React</li>
+                                <li>Tailwind</li>
+                                <li>Node js</li>
+                                <li>Express js</li>
+                                <li>MongoDB</li>
+                                <li>Firebase</li>
+                                <li>varcel</li>
                             </ul>
                             <h3 className="text-xl font-bold text-gray-800 mb-2">
                                 Project Description
                             </h3>
                             <p className="text-gray-800">
-                                Chef Hub is an innovative online platform that serves as a hub for culinary enthusiasts, connecting aspiring chefs, food lovers, and industry professionals. Our platform offers a comprehensive range of features and resources to empower individuals in their culinary journey and foster a vibrant culinary community. <br />
-                                Chef Hub provides a platform for users to share their favorite recipes, culinary creations, and cooking tips. Discover a wide variety of recipes from different cuisines, browse through user-generated content, and find inspiration for your next culinary adventure.
+                                This is an online money transfer website. Users can transfer money using it.
+                                ●  It’s a group project. Making this almost 7 weeks needs.
+                                ●  Users can create accounts and doing Send Money, Cash Out, Bill pay and many more.
+
                             </p>
 
                         </div>

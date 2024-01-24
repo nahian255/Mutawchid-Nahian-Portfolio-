@@ -22,9 +22,8 @@ const Navbar = () => {
 
                         <div className="hidden md:block">
                             <div className="ml-96 flex items-baseline space-x-4">
-                                <a href="https://drive.google.com/file/d/17hfNILkm7C7-yozN-wnyFhPEkymW6pVi/view?usp=sharing" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                                    Resume Dowanload
-                                </a>
+                                <a href="https://docs.google.com/document/d/1AfSPJYMZ6IqiOSD1UdohbZon1rVdYOiPsQKNYkicW3g/edit" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                    Resume                                 </a>
                                 <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
                                 <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</Link>
                                 <Link to="/contactMe" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
