@@ -1,6 +1,5 @@
 // src/components/Banner.js
-import { Link } from 'react-router-dom';
-import img from '../../assets/IMG_7639.jpg'
+import img from '../../assets/nahian.jpg'
 
 const Banner = () => {
     return (
@@ -29,6 +28,7 @@ const Banner = () => {
                         <img
                             className="rounded-full h-72 w-72 object-cover mx-auto"
                             src={img}
+
                             alt="Profile"
                         />
                     </div>
